@@ -29,7 +29,7 @@ HTML의 `<head>` 부분에 다음과 같이 CDN을 작성하시면 됩니다
 만약 사용자에게 보여줄 코멘트를 바꾸고 싶다면, `data-comment`라는 속성을 추가할 수 있습니다
 
 ```html
-<a href="#" class="link-confirm" data-comment="정말 삭제하시겠습니까?"><i class="fa-solid fa-trash-can"></i>삭제</a>
+<a href="#" class="link-confirm" data-comment="정말 삭제하시겠습니까?">삭제하기</a>
 ```
 
 `data-comment`가 설정된 경우 기본 메시지보다 우선적으로 출력합니다
